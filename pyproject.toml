@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ml-brush"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Mikhailov <mikhailov.ivan.imc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sfbox-api = {git = "https://github.com/IvanMikhailovIMCRAS/sfbox_api.git"}
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
